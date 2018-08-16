@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RUTAS</title>
+</head>
+<body>
+    <div id="contenedor">
+        <a href="../index.html">Regresar a menu principal </a>
+        <h1>RUTAS DE TRANSPORTE</h1>
+
+        <h4>Esta página te arrogará las coordenadas exactas de donde estás ubicado.</h4>
+
+        <span>Opciones:</span>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="cbxEnableHighAccuracy">Habilitar Alta Precisión:</label></td>
+                    <td><input id="cbxEnableHighAccuracy" type="checkbox" /></td>
+                </tr>
+                <tr>
+                    <td><label for="txtTimeout">Tiempo de Espera (milisegundos):</label></td>
+                    <td><input id="txtTimeout" type="number" value="5000" min="0" /></td>
+                </tr>
+                <tr>
+                    <td><label for="txtMaximumAge">Tiempo Cache (milisegundos):</label></td>
+                    <td><input id="txtMaximumAge" type="number" value="0" min="0" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input id="btnGetGeolocation" type="button" value="Obtener Geolocalización" /></td>
+                </tr>
+                <tr>
+                    <td><label>Estatus:</label></td>
+                    <td><span id="sStatus"></span></td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+        <h3>Resultados:</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label>Coordenadas:</label></td>
+                    <td><span id="sLat"></span>, <span id="sLon"></span></td>
+                </tr>
+                <tr>
+                    <td><label>Precisión (metros):</label></td>
+                    <td><span id="sAcc"></span></td>
+                </tr>
+            </tbody>
+        </table>
+
+ <h2> Visita este enlace para ver más información acerca de las rutas: </h2>
+ <a href="https://rutasmap.wordpress.com/mapa/">Información de Rutas</a>
+
+    </div>
+    <script src="js/rutas.js"></script>
+
+</body>
+</html>

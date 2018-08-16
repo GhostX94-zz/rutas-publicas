@@ -1,0 +1,66 @@
+body {
+    font-family: Arial;
+    background-color: lightcyan;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+}
+#texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#contenedor {
+    width: 900px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: lightgray;
+
+}
+#bien {
+    font-family: smal fonts;
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: lightgray;
+}
+
+#vision {
+    font-family: smal fonts;
+    margin-left: 10px auto; 
+    margin-right: auto; 
+    background-color: lightgray;
+}
+
+#mision {
+    font-family: smal fonts;
+    margin-left: 10px auto; 
+    margin-right: auto; 
+    background-color: lightgray;
+}
+
+#boton {
+margin: 1px auto;
+width: 880px;
+background-color: #E7F6F6;
+border: 1px solid #99cccc;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#boton {
+padding: 10px;
+}
